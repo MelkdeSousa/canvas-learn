@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    -webkit-smoothing: antialiased;
+}
+
+body {
+    background: rgb(21, 23, 39);
+
+    max-width: 80%;
+    margin: 0 auto;
+    
+    height: 100vh;
+}
+
+#app {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    border: 1px solid rgb(80, 53, 155);
+    border-radius: 10px;
+}
+
